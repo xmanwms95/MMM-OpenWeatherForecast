@@ -41,7 +41,7 @@ module.exports = NodeHelper.create({
       } else {
 
         //make request to OpenWeather One Call API
-        var url = "https://api.openweathermap.org/data/2.5/onecall?" +
+        var url = "https://api.openweathermap.org/data/3.0/onecall?" +
           "lat=" + payload.latitude +
           "&lon=" + payload.longitude +
           "&exclude=" + "minutely" +
